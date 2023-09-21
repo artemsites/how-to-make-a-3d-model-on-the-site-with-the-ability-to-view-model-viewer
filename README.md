@@ -1,1 +1,1 @@
-# Оригинальная статья находится на сайте [practical-web.ru](https://practical-web.ru/3d/kak-dobavit-3d-model-na-sayt-s-vozmozhnostyu-vertet-model-viewer)   
+# [Оригинальная статья находится на сайте practical-web.ru](https://practical-web.ru/3d/kak-dobavit-3d-model-na-sayt-s-vozmozhnostyu-vertet-model-viewer)   
