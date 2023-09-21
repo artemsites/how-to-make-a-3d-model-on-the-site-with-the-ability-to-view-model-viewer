@@ -1,0 +1,36 @@
+<!DOCTYPE html>  
+<html lang="ru">  
+<head>  
+  <meta charset="UTF-8">  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+  <title>Как добавить 3D модель на сайт, с возможностью вертеть (model-viewer)</title>  
+
+  <link rel="stylesheet" href="main.css">
+  <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.1.1/model-viewer.min.js"></script>
+</head>
+
+
+
+<body>
+
+
+
+  <h1>Демонастрация 3D просмотрщика с 3D моделью</h1>
+  <h2>"BB-8 Droid (STAR WARS: The Force Awakens)" (https://skfb.ly/oL7Nq) by ᗩᒪE᙭. Kᗩ.🚗 is licensed under CC Attribution-NonCommercial-NoDerivs (http://creativecommons.org/licenses/by-nc-nd/4.0/).</h2>
+
+  <model-viewer src="bb-8_droid_star_wars_the_force_awakens.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="poster.webp" shadow-intensity="1" camera-orbit="18.8deg 50.79deg 42.36m" field-of-view="17.9deg">
+    <div class="progress-bar hide" slot="progress-bar">
+        <div class="update-bar"></div>
+    </div>
+    <button slot="ar-button" id="ar-button">
+        View in your space
+    </button>
+    <div id="ar-prompt">
+        <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
+    </div>
+  </model-viewer>
+
+
+
+</body>
+</html>
